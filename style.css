@@ -1,0 +1,79 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Styling */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Form Container */
+.Reg-Form{
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 380px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.Reg-Form h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Table alignment */
+.Reg-Form table{
+    width: 100%;
+}
+
+/* Labels */
+.Reg-Form label{
+    font-weight: 600;
+    color: #444;
+    font-size: 14px;
+}
+
+/* Inputs */
+.Reg-Form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+.Reg-Form input:focus{
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37,117,252,0.4);
+}
+
+/* Submit Button */
+#submit{
+    width: 100%;
+    padding: 12px;
+    background: #2575fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+#submit:hover{
+    background: #1a5edb;
+}
